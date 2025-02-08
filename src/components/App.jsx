@@ -4,14 +4,18 @@ function App() {
 
   const now = new Date().toLocaleTimeString();
 
+  const [time, setTime] = useState(now)
+
   function latestTime(){
-    const [time, newTime] = useState
+
+    const newTime = new Date().toLocaleTimeString();
+    setTime(newTime)
 
   }
 
   return (
     <div className="container">
-      <h1>{now}</h1>
+      <h1>{time}</h1>
       <button onClick={latestTime}>Get Time</button>
     </div>
   );
