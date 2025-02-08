@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>TIME</h1>
+      <h1>{now}</h1>
       <button>Get Time</button>
     </div>
   );
