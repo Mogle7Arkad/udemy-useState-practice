@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 function App() {
 
   const now = new Date().toLocaleTimeString();
 
   function latestTime(){
+    const [time, newTime] = useState
 
   }
 
