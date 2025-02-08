@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
+  setInterval(latestTime, 1000);
 
   const now = new Date().toLocaleTimeString();
 
